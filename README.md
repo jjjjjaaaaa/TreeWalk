@@ -13,6 +13,7 @@
   This will make `FindMinPath()` more efficient (O(1) per query), though memory usage will increase to O(n log n).
 
 ## Usage
+- cd TreeWalk
 - cmake .
 - make TreeWalkTest 
 - ./TreeWalkTest
