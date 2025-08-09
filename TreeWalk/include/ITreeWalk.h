@@ -6,9 +6,9 @@
 #include "Node.h"
 
 class ITreeWalk {
-public: 
+public:
     virtual ~ITreeWalk() = default;
 
     virtual void SetBinaryTree(Node* pRoot) = 0;
-    virtual std::vector<std::string> FindMinPath(char start, char end) = 0;
+    virtual std::vector<std::string> FindMinPath(int start, int end) = 0;
 };

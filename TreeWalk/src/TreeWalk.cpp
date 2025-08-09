@@ -13,7 +13,7 @@ void TreeWalk::BuildMap(Node *pNode, int depth)
     BuildMap(pNode->m_pRight, depth + 1);
 }
 
-Node *TreeWalk::GetNode(char val) const
+Node *TreeWalk::GetNode(int val) const
 {
     auto it = m_valueToNode.find(val);
     if (it != m_valueToNode.end())
@@ -31,7 +31,7 @@ void TreeWalk::SetBinaryTree(Node *pRoot)
     BuildMap(pRoot, 0);
 }
 
-std::vector<std::string> TreeWalk::FindMinPath(char start, char end)
+std::vector<std::string> TreeWalk::FindMinPath(int start, int end)
 {
     auto pStart = GetNode(start);
     auto pEnd = GetNode(end);

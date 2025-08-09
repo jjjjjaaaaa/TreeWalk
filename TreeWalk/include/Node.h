@@ -1,12 +1,12 @@
 #pragma once
 
 typedef struct Node{
-    char m_val;
+    int m_val;
     Node* m_pLeft = nullptr;
     Node* m_pRight = nullptr;
     Node* m_pParent = nullptr;
 
-    Node(char val) : m_val(val) {}
+    Node(int val) : m_val(val) {}
 } Node;
 
 constexpr char STRING_UP[] = "UP";

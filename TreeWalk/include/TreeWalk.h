@@ -9,12 +9,12 @@ public:
     virtual ~TreeWalk() = default;
 
     void SetBinaryTree(Node* pRoot) override;
-    std::vector<std::string> FindMinPath(char start, char end) override;    
+    std::vector<std::string> FindMinPath(int start, int end) override;
 
 protected:
-    std::unordered_map<char, Node*> m_valueToNode;
+    std::unordered_map<int, Node*> m_valueToNode;
     std::unordered_map<Node*, int> m_nodeDepth;
 
     void BuildMap(Node* pNode, int depth);
-    Node* GetNode(char val) const;
+    Node* GetNode(int val) const;
 };
