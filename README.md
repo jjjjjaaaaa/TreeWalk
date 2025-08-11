@@ -46,4 +46,9 @@ TreeWalkTest is to check the performance.
 |Binary Lifting|2441.2|88.9|458.6|
 |Euler Tour + RMQ|3406.9|108.66|347.3|
 
+## Conclusion
+The time complexity for FindMinPath() in the above list is only calculate the Lowest Common Ancestor. However the time to find the path costs a lot.
+It points out the complexity is one thing, and the actual processing time is another.
+
+
 
