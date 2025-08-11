@@ -50,5 +50,9 @@ TreeWalkPerformanceTest  is to check the performance.
 The time complexity for FindMinPath() in the above list is only calculate the Lowest Common Ancestor. However the time to find the path costs a lot.
 It points out the complexity is one thing, and the actual processing time is another.
 
+SimpleTreeWalk works similiar with SimpleParentPointerWalk.
+SimpleTreeWalk works more efficiently because it uses std::unordered_map to store the the id mapping with node and depth, 
+then the depth could be got in O(1), better than SimpleParentPointerWalk.
+
 
 
