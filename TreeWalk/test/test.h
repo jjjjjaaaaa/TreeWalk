@@ -1,3 +1,4 @@
 #pragma once
+#include "ITreeWalk.h"
 
-void Test();
+void Test(ITreeWalk* pTreeWalk);

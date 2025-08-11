@@ -1,10 +1,11 @@
 #pragma once
 
-typedef struct Node{
+typedef struct Node
+{
     int m_val;
-    Node* m_pLeft = nullptr;
-    Node* m_pRight = nullptr;
-    Node* m_pParent = nullptr;
+    Node *m_pLeft = nullptr;
+    Node *m_pRight = nullptr;
+    Node *m_pParent = nullptr;
 
     Node(int val) : m_val(val) {}
 } Node;
