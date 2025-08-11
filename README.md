@@ -10,6 +10,7 @@ SimpleTreeWalk is refined from Simple Parent Pointer.
 
 ## Time Complexity
 ||SetBinaryTree()|FindMinPath()|
+| ------------- | ------------- | ------------- |
 |Simple Parent Pointer|O(n)|O(h), where h is the height of the tree.|
 |SimpleTreeWalk|O(n)|O(h)|
 |Binary Lifting|O(NlogN)|O(logh)|
