@@ -27,7 +27,7 @@ make
 ```
 TreeWalkTest is to check the correctness.
 
-TreeWalkTest is to check the performance.
+TreeWalkPerformanceTest  is to check the performance.
 
 ## Performance
 ### case 1 : Balanced Tree
