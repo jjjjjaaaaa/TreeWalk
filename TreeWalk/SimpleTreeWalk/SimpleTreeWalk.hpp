@@ -6,11 +6,6 @@
 #include <vector>
 #include <string>
 
-#include <iostream>
-#include <chrono>
-#include <iomanip>
-
-
 class SimpleTreeWalk : public ITreeWalk
 {
 public:
@@ -19,7 +14,6 @@ public:
 
     void SetBinaryTree(Node *pRoot) override
     {
-        auto t1 = std::chrono::high_resolution_clock::now();
         m_nodeInfo.clear();
         BuildMap(pRoot, 0);
     }

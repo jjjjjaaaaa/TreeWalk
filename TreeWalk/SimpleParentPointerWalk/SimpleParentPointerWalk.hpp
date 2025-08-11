@@ -6,10 +6,6 @@
 #include <string>
 #include <unordered_map>
 
-#include <iostream>
-#include <chrono>
-#include <iomanip>
-
 class SimpleParentPointerWalk : public ITreeWalk {
 private:
     virtual ~SimpleParentPointerWalk()  = default;
